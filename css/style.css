@@ -1,0 +1,98 @@
+
+/* Template Name: Finsweet 
+Author Name: Md Sakibul Islam
+Version: 1.0 
+======== Section ========
+Header 
+Banner
+Our Work 
+Project 
+Features
+Testimonials
+FAQ
+Inquiry
+Blog
+Footer 
+======== Section ========
+Font-Family: Poppins 
+Font-Awesome */
+/* ============== common css start ============== */
+:root {
+    --tint-blue: #1C1E53;
+    --dark-blue: #282938;
+    --royal-blue: #2405F2;
+    --white: #FFFFFF;
+    --yellow: #FCD980;
+    --light-gray: #F4F6FC;
+    --gray: #BBBBCB;
+    --hover-gradient: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    --Poppins: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+/* ============== common css end ============== */
