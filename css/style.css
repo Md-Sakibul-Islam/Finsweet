@@ -154,7 +154,6 @@ body {
     background-color: var(--tint-blue);
 }
 
-.banner-body {}
 
 .banner-body .banner-title {
     color: var(--white);
@@ -169,8 +168,6 @@ body {
     opacity: 0.7;
 }
 
-.banner-body .action-btn {}
-
 .banner-body .action-btn .work-btn {
     display: inline-block;
     padding: 17px 59px;
@@ -178,7 +175,7 @@ body {
 }
 
 .banner-body .action-btn .pricing-btn {
-    margin-left: 40px;
+    margin: 0 0 0 40px;
     display: inline-block;
     color: var(--white);
     font-style: normal;
@@ -186,10 +183,85 @@ body {
     line-height: 28px;
 }
 
-.banner-img {}
+.action-btn .arrow-icon i {
+    margin-left: 0;
+    visibility: hidden;
+    transition: 0.4s linear;
+}
+
+.action-btn .arrow-icon a:hover i {
+    visibility: visible;
+    margin-left: 12px;
+}
 
 .banner-img img {
     width: 100%;
 }
 
 /* ============== Banner css end ================ */
+
+/* ============== work start ================ */
+.work-section {
+    padding: 130px 0 82px 0;
+    background-color: var(--light-gray);
+  }
+
+.work-body .work-title {
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.work-body .work-text {
+    margin: 16px 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.work-body .get-btn {
+    color: var(--royal-blue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.work-body .get-btn i {
+    margin-left: 0;
+    visibility: hidden;
+    transition: 0.4s linear;
+}
+
+.work-body .get-btn:hover i {
+    visibility: visible;
+    margin-left: 12px;
+}
+
+.work-flow {
+    margin-bottom: 48px;
+}
+
+.flow-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.work-flow .flow-title {
+    margin: 16px 0 8px 0;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.work-flow .flow-text {
+    opacity: 0.7;
+    font-style: normal;
+    line-height: 28px;
+
+}
+
+/* ============== work  css end ================ */
