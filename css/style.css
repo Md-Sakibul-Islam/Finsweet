@@ -126,6 +126,7 @@ body {
 }
 
 .btn {
+    display: inline-block;
     border-radius: 41px;
     border: 2px solid rgba(244, 246, 252, 0.20);
     transition: 0.3s;
@@ -146,3 +147,49 @@ body {
 }
 
 /* ============== Header css end ================ */
+
+/* ============== Banner css start ================ */
+.banner-section {
+    padding: 130px 0;
+    background-color: var(--tint-blue);
+}
+
+.banner-body {}
+
+.banner-body .banner-title {
+    color: var(--white);
+}
+
+.banner-body .banner-text {
+    margin: 24px 0 48px 0;
+    color: var(--white);
+    font-style: normal;
+    line-height: 28px;
+    /* 175% */
+    opacity: 0.7;
+}
+
+.banner-body .action-btn {}
+
+.banner-body .action-btn .work-btn {
+    display: inline-block;
+    padding: 17px 59px;
+    background-color: var(--yellow);
+}
+
+.banner-body .action-btn .pricing-btn {
+    margin-left: 40px;
+    display: inline-block;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.banner-img {}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* ============== Banner css end ================ */
