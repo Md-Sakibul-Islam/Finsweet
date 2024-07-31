@@ -118,7 +118,7 @@ body {
 
 .nav-menu ul li a:hover {
 
-    color: var(--white);
+    color: var(--yellow);
 }
 
 .nav-menu ul li a:focus {
@@ -298,6 +298,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .project-overlay {
     display: flex;
     padding: 0 35px 0 48px;
@@ -385,7 +386,7 @@ body {
 .show-project:hover .show-overlay {
     left: 0;
     visibility: visible;
-    
+
 }
 
 .show-overlay-body .show-title {
@@ -396,7 +397,7 @@ body {
     font-weight: 600;
     line-height: 36px;
     color: var(--white);
-    
+
 }
 
 .show-overlay-body .show-btn {
@@ -404,7 +405,66 @@ body {
     font-weight: 500;
     line-height: 28px;
     color: var(--yellow);
-    
+
 }
 
 /* ============== project  css end ================ */
+
+/*  ============== features  css start ================  */
+.features-section {
+    padding: 130px 0;
+    background-color: var(--light-gray);
+}
+
+.features-body {
+    width: 630px;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.features-body .features-subtitle {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+   
+}
+
+.features-body .features-title {
+    margin-top: 12px;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+
+}
+
+
+
+.features-card {
+    margin-bottom: 24px;
+    padding: 58px 32px 48px 48px;
+    background-color: var(--white);
+}
+
+.features-card .features-img img {}
+
+.features-card .features-title {
+    margin: 22px 0 12px 0;
+    color: var(--dark-blue);
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.features-card .features-text {
+    text-align: justify;
+    font-style: normal;
+    line-height: 28px;
+    opacity: 0.7;
+
+}
+
+
+/* ============== features  css end ================   */
