@@ -22,6 +22,7 @@ Font-Awesome */
     --royal-blue: #2405F2;
     --white: #FFFFFF;
     --yellow: #FCD980;
+    --soft-gray:#F9FBFD;
     --light-gray: #F4F6FC;
     --gray: #BBBBCB;
     --hover-gradient: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
@@ -417,7 +418,7 @@ body {
 }
 
 .features-body {
-    width: 630px;
+    max-width: 630px;
     margin-bottom: 47px;
     text-align: center;
 }
@@ -428,7 +429,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
-   
+
 }
 
 .features-body .features-title {
@@ -448,8 +449,6 @@ body {
     background-color: var(--white);
 }
 
-.features-card .features-img img {}
-
 .features-card .features-title {
     margin: 22px 0 12px 0;
     color: var(--dark-blue);
@@ -466,5 +465,46 @@ body {
 
 }
 
+
+/* ============== features  css end ================   */
+
+/* ============== features  css start ================   */
+
+.testimonial-section {
+    padding: 130px 0;
+    background-color: var(--soft-gray);
+}
+
+.testimonial-title {
+    margin-bottom: 16px;
+    padding-right: 30px;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+   
+}
+
+.testimonial-text {
+    padding-right: 30px;
+    font-style: normal;
+    line-height: 28px;
+
+}
+
+
+.carousel-body .carousel-title {
+   margin-bottom: 48px;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+
+.carousel-client{
+    display: flex;
+    gap: 10px;
+}
 
 /* ============== features  css end ================   */
