@@ -22,7 +22,7 @@ Font-Awesome */
     --royal-blue: #2405F2;
     --white: #FFFFFF;
     --yellow: #FCD980;
-    --soft-gray:#F9FBFD;
+    --soft-gray: #F9FBFD;
     --light-gray: #F4F6FC;
     --gray: #BBBBCB;
     --hover-gradient: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
@@ -482,7 +482,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-   
+
 }
 
 .testimonial-text {
@@ -494,7 +494,7 @@ body {
 
 
 .carousel-body .carousel-title {
-   margin-bottom: 48px;
+    margin-bottom: 48px;
     color: var(--dark-blue);
     font-style: normal;
     font-weight: 500;
@@ -502,9 +502,88 @@ body {
 }
 
 
-.carousel-client{
+.carousel-client {
     display: flex;
     gap: 10px;
 }
 
 /* ============== features  css end ================   */
+
+/* faq css start  */
+.faq-section {
+    padding: 130px 0;
+}
+
+
+
+.faq-title {
+    margin-bottom: 16px;
+    padding-right: 85px;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    
+
+}
+
+.faq-question .contact-btn {
+    color: var(--royal-blue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.faq-accordion .accordion-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.faq-accordion .accordion-item:last-child {
+    border-bottom: none;
+}
+
+.faq-accordion .accordion-button .accordion-serial {
+    margin-right: 50px;
+    color: var(--royal-blue);
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+
+}
+
+.faq-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq-accordion .accordion-button .accordion-faq-title {
+    color: var(--dark-blue);
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+
+.faq-accordion .accordion-body .faq-answer {
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 0.87;
+    margin: -24px 100px 0 75px;
+}
+
+/* faq css end  */
