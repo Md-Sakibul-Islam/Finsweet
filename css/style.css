@@ -523,7 +523,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    
+
 
 }
 
@@ -587,3 +587,60 @@ body {
 }
 
 /* faq css end  */
+
+/* Blog css start  */
+.blog-section {
+    padding: 130px 0;
+}
+
+.blog-heading {
+    margin-bottom: 34px;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.blog-card {
+    margin-top: 30px;
+}
+
+.blog-card .blog-img img{
+    width: 100%;
+}
+
+.blog-card .blog-date {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.blog-card .blog-title {
+    margin: 16px 0;
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.blog-card .blog-text {
+    margin-bottom: 32px;
+    font-style: normal;
+    line-height: 28px;
+    opacity: 0.7;
+
+}
+
+.blog-card .read-more-btn {
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+/* Blog css end  */
